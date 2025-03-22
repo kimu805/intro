@@ -14,10 +14,10 @@
       <tr>
         <td><%= book.isbn %></td>
         <td><%= book.title %></td>
-        <td><%= book.price %>円</td>
+        <td><%= book.price %> 円</td>
         <td><%= book.publisher %></td>
         <td><%= book.published %></td>
-        <td><%= book.dl %></td>
+        <td><%= book.dl ? "可能" : "不可" %></td>
       </tr>
     <% end %>
   </tbody>
