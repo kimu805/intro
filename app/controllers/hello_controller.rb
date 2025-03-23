@@ -8,6 +8,7 @@ class HelloController < ApplicationController
   end
 
   def list
+    binding.pry
     @books = Book.all
   end
 end
