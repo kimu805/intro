@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2025_03_22_083621) do
+ActiveRecord::Schema[7.2].define(version: 2025_03_23_070430) do
   create_table "books", charset: "utf8mb4", force: :cascade do |t|
     t.string "isbn"
     t.string "title"
